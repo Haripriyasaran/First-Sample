@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: azure;
+    font-family:sans-serif;
+    display: flex;
+    justify-content:space-around;
+  
+}
+
+.main{
+    background-color: blueviolet;
+    width: 40rem;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.main .container{
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.name{
+    border-style: none;
+    height: 1.5rem;
+    background-color: rgb(rgb(127, 30, 149), rgb(194, 25, 163), rgb(236, 141, 222));
+
+}
+
+button{
+    width: 2rem;
+}
