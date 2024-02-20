@@ -18,19 +18,36 @@ body{
 
 .main .container{
     display: flex;
-    text-align:center;
     flex-direction: column;
-    justify-content: space-between;
+    padding: 0px 20px;
+    justify-content: space-around;
 
 }
 
 .name{
     border-style: none;
     height: 1.5rem;
-    background-color: rgb(rgb(127, 30, 149), rgb(194, 25, 163), rgb(236, 141, 222));
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
+.pass{
+    border-style: none;
+    height: 1.5rem;
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 button{
-    width: 2rem;
+    width: 5rem;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-style: none;
+    padding:10px;
+}
+
+
+label{
+    padding: 5px;
 }
