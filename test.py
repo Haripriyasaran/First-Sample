@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main() {  
-    char c;
+    char v;
     printf("Enter a character: ");
-    scanf("%c", &c);  
+    scanf("%d", &d);  
     
     // %d displays the integer value of a character
     // %c displays the actual character
-    printf("ASCII value of %c = %d", c, c);
+    printf("ASCII value of %d = %d", c, c);
     
     return 0;
 }
