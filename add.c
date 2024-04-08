@@ -3,7 +3,7 @@
 int main()
 {
     // Declare variables
-    int num1,num2,sum;
+    int num1,num2,s;
 
     
 
@@ -15,12 +15,12 @@ int main()
 
     // calculate the sum of two numbers
 
-    sum = num1 + num2;      
+    s = num1 + num2;      
 
     
 
     // Print the result
 
-    printf("%d + %d = %d", num1, num2, sum);
-    return 0;
+    printf("%d + %d = %d", num1, num2, s);
+   
 }
